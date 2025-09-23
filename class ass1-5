@@ -1,3 +1,4 @@
+
 #Q-1
 def chocopiles(n):
     l = [n]
@@ -24,6 +25,7 @@ def dist_values():
         print(True)
 
 dist_values()
+
 #Q-3
 threshold = int(input("Enter the threshold:\n"))
 my_list = [6, 2, 19, 55, 210, 17, 23, 250]
@@ -46,14 +48,9 @@ for a in word:
 print(result) 
 
 #Q-5
-ord=['cat','car','fear','center']
+name=['cat','car','fear','center']
 length=[]
-for w in word:
+for w in name:
     length.append(len(w))
     print(length)
-
-name=['cat','dog','shatter','donut','at','todo']
-length1=[]
-for x in name:
-    length1.append(len(x))
-    print(length1)
+    
